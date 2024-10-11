@@ -65,7 +65,7 @@ nav ul li a::after{
     transition: 0.5s; /*animates the line undernath the links*/
 }
 
-nav ul li a::hover::after{
+nav ul li a:hover::after{
     width: 100%; /*makes line under the link visible */
 }
 
