@@ -20,3 +20,8 @@ body{
     background-size: cover;
     background-position: center;
 }
+
+/*Adding styleing for the container with the links to other pages on the site */
+.container{
+    padding: 10px 10%;
+}
