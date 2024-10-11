@@ -103,3 +103,8 @@ nav ul li a:hover::after{
 .about-col-2{
     flex-basis: 60%; /*only adds up to 95% with col 1 so 5% space left between*/
 }
+.sub-title{
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
