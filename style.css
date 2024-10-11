@@ -44,3 +44,27 @@ nav ul li{
     list-style: none;
     margin: 10px 20px; /*10px from top and bottom and 20px from left and right side */
 }
+
+/*style the links on the top of the page, white color and no underline like normal hyperlink*/
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+/*adds red line underneath the links accross the top of the page*/
+nav ul li a::after{
+    content: '';
+    width: 0; /*makes it so that the line you created is not visible */
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s; /*animates the line undernath the links*/
+}
+
+nav ul li a::hover::after{
+    width: 100%; /*makes line under the link visible */
+}
