@@ -1,53 +1,13 @@
-/* General styles for the entire website */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+/*General styling */
+*{
     margin: 0;
     padding: 0;
-    color: #333;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 
-/* Header styles */
-header {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 1em;
-}
-
-/* Navigation menu styles */
-nav {
-    margin: 15px;
-    text-align: center;
-}
-
-nav a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: #4CAF50;
-}
-
-/* Section styles */
-section {
-    padding: 20px;
-}
-
-/* Footer styles */
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-
-/* Additional styling for links */
-a {
-    color: #4CAF50;
-}
-
-a:hover {
-    color: #2e7d32;
+/*styling for the body */
+body{
+    background: #080808;
+    color: #fff;
 }
