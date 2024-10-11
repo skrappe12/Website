@@ -100,3 +100,6 @@ nav ul li a:hover::after{
     width: 100%;
     border-radius: 15px; /*makes edge of the picture round*/
 }
+.about-col-2{
+    flex-basis: 60%; /*only adds up to 95% with col 1 so 5% space left between*/
+}
