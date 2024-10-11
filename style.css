@@ -140,3 +140,9 @@ nav ul li a:hover::after{
     color: #b54769;
     font-size: 14px;
 }
+.tab-contents{
+    display: none;/*Hides all tab contents*/
+}
+.tab-contents.active-tab{
+    display: block;/*reveals only the active tab*/
+}
