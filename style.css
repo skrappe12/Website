@@ -82,3 +82,9 @@ nav ul li a:hover::after{
 .header-text h1 span{
     color: #ff004f;
 }
+
+/*About Section Formatting */
+#about{
+    padding: 80px 0;
+    color: #ababab;
+}
