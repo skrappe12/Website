@@ -119,3 +119,16 @@ nav ul li a:hover::after{
     cursor: pointer;/*so when mouse is over it turns into the hand pointer*/
     position: relative;
 }
+.tab-links::after{
+    content: '';
+    height: 6px;
+    width: 0;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.tab-links:hover::after{
+    width: 100%;
+}
