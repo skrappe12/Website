@@ -25,3 +25,11 @@ body{
 .container{
     padding: 10px 10%;
 }
+
+/*Adding styling to the nav section of the index.html file within the container to make it */
+nav{
+    display: flex; /*image and links side by side */
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
