@@ -389,3 +389,9 @@ nav.fas{
         font-size: 14px;
     }
 } 
+/*--------------Formatting for form submission-----------*/
+#msg{
+    color: #61b752;
+    margin-top: -40px;
+    display: block;
+}
