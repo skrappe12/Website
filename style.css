@@ -86,7 +86,7 @@ nav ul li a:hover::after{
     color: #ff004f;
 }
 
-/*About Section Formatting */
+/*-----------------About Section Formatting-------------------- */
 #about{
     padding: 80px 0;
     color: #ababab;
@@ -142,6 +142,10 @@ nav ul li a:hover::after{
 .tab-contents ul li span{
     color: #b54769;
     font-size: 14px;
+}
+.tab-contents a{
+    text-decoration: none;
+    color: #fff;
 }
 .tab-contents{
     display: none;/*Hides all tab contents*/
